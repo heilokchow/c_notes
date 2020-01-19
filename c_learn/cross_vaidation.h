@@ -20,18 +20,15 @@ int _cross_num = CROSS_NUM;
 
 struct Linear_regression {
 public:
-    MatrixXd X, XX;
+    MatrixXd X;
     VectorXd b;
     std::array<MatrixXd, 10> XX_cross;
     int n, p;
 
-    Linear_regression() :
-        n(8000), p(1000) {
+    Linear_regression(int nn, int pp) :
+        n(nn), p(pp), X(2*nn,pp), b(2*nn) {
         int n1 = n / 10, n2 = 9 * n1, n3 = 2 * n;
-        X.resize(n3, p);
-        XX.resize(p, p);
-        XX = MatrixXd::Zero(p, p);
-        b.resize(n3);
+        MatrixXd XX = MatrixXd::Zero(p, p);
         std::random_device device;
         std::mt19937 generator(device());
         std::normal_distribution<double> normal(0.0, 1.0);

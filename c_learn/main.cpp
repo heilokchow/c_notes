@@ -10,7 +10,7 @@
 
 int main()
 {
-    auto stat = std::make_shared<Linear_regression>();
+    auto stat = std::make_shared<Linear_regression>(100,10);
   
     std::array<std::thread, 8> workers;
 
