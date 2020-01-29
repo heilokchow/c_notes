@@ -1,0 +1,1 @@
+/usr/bin/c++   -fopenmp -g    CMakeFiles/CMake_notes.dir/main.cpp.o  -o CMake_notes 

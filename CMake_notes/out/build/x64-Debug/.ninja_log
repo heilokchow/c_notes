@@ -1,3 +1,5 @@
 # ninja log v5
-0	302	601973236	CMake_notes/CMakeFiles/CMake_notes.dir/CMake_notes.cpp.obj	b483b62b7c245d2e
-303	546	601973236	CMake_notes/CMake_notes.exe	f71de8e958a41cf9
+1	125	601994788	CMakeFiles/main.dir/CMake_notes/main.cpp.obj	38394ae448424ed0
+5	128	601994788	CMake_notes/CMakeFiles/CMake_notes.dir/main.cpp.obj	98a04be56fe09d97
+126	532	601994788	main.exe	747cb05b0cc952fe
+129	533	601994788	CMake_notes/CMake_notes.exe	4fc475c7106965df

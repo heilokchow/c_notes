@@ -162,7 +162,7 @@ int main(int argc, char* argv[]) {
 
     p = init_list(p);
     head = p;
-
+    
     start = omp_get_wtime();
 #pragma omp parallel
 #pragma omp single
@@ -182,6 +182,8 @@ int main(int argc, char* argv[]) {
     free(p);
 
     printf("Compute Time: %f seconds\n", end - start);
+
+    printf("Hello World\n");
 
     return 0;
 }

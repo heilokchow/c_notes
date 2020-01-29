@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/main.dir/CMake_notes/main.cpp.o  -o main 
