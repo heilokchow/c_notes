@@ -39,7 +39,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/c/Users/micha/Documents/Course/c_learn/c_learn/CMake_notes/out/build/WSL-Release"
+			"value" : "/mnt/c/Users/michael96/Documents/Research/c_notes/CMake_notes/out/build/WSL-Release"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -63,7 +63,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "14"
+			"value" : "15"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -75,7 +75,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "2542820"
+			"value" : "3150938"
 		},
 		{
 			"name" : "CMAKE_COLOR_MAKEFILE",
@@ -103,7 +103,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/heilokchow/.vs/cmake/bin/cmake"
+			"value" : "/mnt/c/Users/michael96/Documents/Research/.vs/cmake/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -115,7 +115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/heilokchow/.vs/cmake/bin/cpack"
+			"value" : "/mnt/c/Users/michael96/Documents/Research/.vs/cmake/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -127,7 +127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/heilokchow/.vs/cmake/bin/ctest"
+			"value" : "/mnt/c/Users/michael96/Documents/Research/.vs/cmake/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -563,7 +563,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/c/Users/micha/Documents/Course/c_learn/c_learn/CMake_notes"
+			"value" : "/mnt/c/Users/michael96/Documents/Research/c_notes/CMake_notes"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/mnt/c/Users/micha/Documents/Course/c_learn/c_learn/CMake_notes/out/install/WSL-Release"
+			"value" : "/mnt/c/Users/michael96/Documents/Research/c_notes/CMake_notes/out/install/WSL-Release"
 		},
 		{
 			"name" : "CMAKE_INSTALL_SO_NO_EXE",
@@ -835,7 +835,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/heilokchow/.vs/cmake/share/cmake-3.14"
+			"value" : "/mnt/c/Users/michael96/Documents/Research/.vs/cmake/share/cmake-3.15"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1083,7 +1083,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/c/Users/micha/Documents/Course/c_learn/c_learn/CMake_notes/out/build/WSL-Release"
+			"value" : "/mnt/c/Users/michael96/Documents/Research/c_notes/CMake_notes/out/build/WSL-Release"
 		},
 		{
 			"name" : "CMake_notes_SOURCE_DIR",
@@ -1095,7 +1095,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/c/Users/micha/Documents/Course/c_learn/c_learn/CMake_notes"
+			"value" : "/mnt/c/Users/michael96/Documents/Research/c_notes/CMake_notes"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenMP",
@@ -1107,7 +1107,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[TRUE][TRUE][c ][v4.5()]"
+			"value" : "[TRUE][TRUE][c ][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenMP_C",
@@ -1119,7 +1119,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[-fopenmp][/usr/lib/gcc/x86_64-linux-gnu/7/libgomp.so][/usr/lib/x86_64-linux-gnu/libpthread.so][v4.5()]"
+			"value" : "[-fopenmp][/usr/lib/gcc/x86_64-linux-gnu/7/libgomp.so][/usr/lib/x86_64-linux-gnu/libpthread.so][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenMP_CXX",
@@ -1131,7 +1131,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[-fopenmp][/usr/lib/gcc/x86_64-linux-gnu/7/libgomp.so][/usr/lib/x86_64-linux-gnu/libpthread.so][v4.5()]"
+			"value" : "[-fopenmp][/usr/lib/gcc/x86_64-linux-gnu/7/libgomp.so][/usr/lib/x86_64-linux-gnu/libpthread.so][v()]"
 		},
 		{
 			"name" : "OpenMP_COMPILE_RESULT_CXX_fopenmp",

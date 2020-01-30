@@ -63,8 +63,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/mnt/c/Users/micha/Documents/Course/c_learn/c_learn/CMake_notes/out/build/WSL-Release",
-		"source" : "/mnt/c/Users/micha/Documents/Course/c_learn/c_learn/CMake_notes"
+		"build" : "/mnt/c/Users/michael96/Documents/Research/c_notes/CMake_notes/out/build/WSL-Release",
+		"source" : "/mnt/c/Users/michael96/Documents/Research/c_notes/CMake_notes"
 	},
 	"version" : 
 	{

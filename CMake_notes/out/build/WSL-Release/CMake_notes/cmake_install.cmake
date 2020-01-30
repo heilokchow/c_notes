@@ -1,8 +1,8 @@
-# Install script for directory: /mnt/c/Users/micha/Documents/Course/c_learn/c_learn/CMake_notes/CMake_notes
+# Install script for directory: /mnt/c/Users/michael96/Documents/Research/c_notes/CMake_notes/CMake_notes
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/mnt/c/Users/micha/Documents/Course/c_learn/c_learn/CMake_notes/out/install/WSL-Release")
+  set(CMAKE_INSTALL_PREFIX "/mnt/c/Users/michael96/Documents/Research/c_notes/CMake_notes/out/install/WSL-Release")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
