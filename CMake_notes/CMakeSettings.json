@@ -1,18 +1,6 @@
 ﻿{
   "configurations": [
     {
-      "name": "x64-Debug",
-      "generator": "Ninja",
-      "configurationType": "Debug",
-      "inheritEnvironments": [ "msvc_x64_x64" ],
-      "buildRoot": "${projectDir}\\out\\build\\${name}",
-      "installRoot": "${projectDir}\\out\\install\\${name}",
-      "cmakeCommandArgs": "",
-      "buildCommandArgs": "-v",
-      "ctestCommandArgs": "",
-      "variables": []
-    },
-    {
       "name": "WSL-Debug",
       "generator": "Unix Makefiles",
       "configurationType": "Debug",
@@ -40,7 +28,23 @@
       "inheritEnvironments": [ "linux_x64" ],
       "wslPath": "${defaultWSLPath}",
       "addressSanitizerRuntimeFlags": "detect_leaks=0",
-      "variables": []
+      "variables": [
+        {
+          "name": "CMAKE_BUILD_TYPE",
+          "value": "RelWithDebInfo",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_INSTALL_PREFIX",
+          "value": "/mnt/c/Users/micha/Documents/Course/c_learn/c_learn/CMake_notes/out/install/WSL-Release",
+          "type": "PATH"
+        },
+        {
+          "name": "Eigen3_DIR",
+          "value": "/usr/lib/cmake/eigen3",
+          "type": "PATH"
+        }
+      ]
     }
   ]
 }

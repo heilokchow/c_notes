@@ -11,6 +11,7 @@ if (OPENMP_FOUND)
 endif()
 
 # Add source to this project's executable.
-add_executable (CMake_notes "main.cpp" "template.h")
+add_executable (${PROJECT_NAME} "main.cpp" "timer.h" "template.h" "cross_vaidation.h")
+target_link_libraries (${PROJECT_NAME} Eigen3::Eigen)
 
 # TODO: Add tests and install targets if needed.
