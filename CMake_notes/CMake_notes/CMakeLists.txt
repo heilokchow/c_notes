@@ -3,15 +3,11 @@
 #
 cmake_minimum_required (VERSION 3.8)
 
-find_package(OpenMP)
-if (OPENMP_FOUND)
-    set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${OpenMP_C_FLAGS}")
-    set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${OpenMP_CXX_FLAGS}")
-    set (CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} ${OpenMP_EXE_LINKER_FLAGS}")
-endif()
-
 # Add source to this project's executable.
-add_executable (${PROJECT_NAME} "main.cpp" "timer.h" "template.h" "cross_vaidation.h")
-target_link_libraries (${PROJECT_NAME} Eigen3::Eigen)
+add_executable (CMake_notes "main.cpp")
+
+target_compile_options(CMake_notes PUBLIC -mfma -std=c++11)
+target_compile_definitions(CMake_notes PUBLIC MAIN)
+target_link_libraries (CMake_notes Eigen3::Eigen OpenMP::OpenMP_CXX)
 
 # TODO: Add tests and install targets if needed.

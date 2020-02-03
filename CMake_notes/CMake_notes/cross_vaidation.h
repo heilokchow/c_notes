@@ -91,7 +91,7 @@ void cross_validation_bench(const std::shared_ptr<Linear_regression> x) {
     } while (_cross_num > 0);
 }
 
-void cross_validation_bench_omp(const std::shared_ptr<Linear_regression> x, int ii) {
+void cross_validation_bench_omp(const std::shared_ptr<Linear_regression> x, int ii, int id = 0) {
 
     int n = x->n, p = x->p, curr = ii;
     int n1 = n / 10, n2 = 9 * n1, n3 = 2 * n;
@@ -118,7 +118,7 @@ void cross_validation_bench_omp(const std::shared_ptr<Linear_regression> x, int 
         beta.noalias() = x->XX_cross[i].llt().solve(xy);
         err += (Y1 - X1 * beta).sum();
     }
-    std::cout << curr << ", Average error: " << err / n << std::endl;
+    printf("ID: %d\t%d\tAverage error: %f\n", id, curr, err / n);
 }
 
 #endif

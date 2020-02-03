@@ -37,16 +37,17 @@ int main()
     pi = sum * step;
     printf("%f, Pi: %.6f\n", end - start, pi);*/
 
-    auto stat = std::make_shared<Linear_regression>(4000, 500);
+    auto stat = std::make_shared<Linear_regression>(10000, 1000);
     
     omp_set_num_threads(NUM_THREADS);
-
+    int flag = 1;
 
     {
         Timer t;
         #pragma omp parallel for schedule (dynamic)
         for (int i = 0; i < 100; i++) {
-            cross_validation_bench_omp(stat, i);
+            int id = omp_get_thread_num();
+            cross_validation_bench_omp(stat, i, id);
         }
     }
 
